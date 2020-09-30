@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class MenghitungGenapGanil_MetodeScanner {
+    public static void main(String[] args) {
+        
+    Scanner input = new Scanner(System.in);
+    int bilangan;
+    
+        System.out.println("Masukkan sebuah bilangan : ");
+        bilangan = input.nextInt();
+        
+        if (bilangan % 2 == 0 ){
+            System.out.println("Bilangan " + bilangan + "bilangan genap");
+        }else{
+            System.out.println("Bilangan " + bilangan + "bilangan ganjil");
+        }
+    }
+}
