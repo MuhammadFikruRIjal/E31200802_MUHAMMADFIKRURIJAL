@@ -1,0 +1,23 @@
+// Import component java.io
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
+public class MenghitungLuasSegitiga_BufferedReader {
+    public static void main(String[] args) throws IOException{
+        double alas, tinggi, luas;
+        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Masukkan nilai Alas :");
+        alas = Double.parseDouble(input.readLine());
+        System.out.println("Masukkan nilai Tinggi :");
+        tinggi = Double.parseDouble(input.readLine());
+        luas = (alas * tinggi) / 2;        
+        System.out.println("Luas Segitiga adalah : " + luas);                      
+        System.out.println("________________________________");
+        System.out.println("Nama: Muhammad Fikru RIjal");
+        System.out.println("NIM: E31200802");
+        System.out.println("Prodi: Manajemen Informatika");
+        System.out.println("________________________________");
+    }
+}
