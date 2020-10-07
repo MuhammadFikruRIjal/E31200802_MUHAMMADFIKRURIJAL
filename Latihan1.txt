@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+
+public class Latihan1Kelulusan {
+    public static void main(String[] args) {
+        Scanner inp = new Scanner (System.in);
+        System.out.println("Masukkan nama anda = ");
+        String Nama = inp.next();   
+        System.out.println("Masukkan NIM = ");
+        String nim = inp.next();      
+        System.out.println("Masukkan Nilai = ");
+    int nilai = inp.nextInt();
+        
+        if(nilai > 50){
+            System.out.println("Anda Lulus ");
+        }else{ 
+            System.out.println("Anda Tidak Lulus ");
+        }
+        
+    }
+}
