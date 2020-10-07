@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+
+public class Latihan4BobotNilaiHuruf {
+    public static void main(String[] args) {
+        Scanner inp = new Scanner (System.in);
+        
+        System.out.println("Konversi Huruf ke Angka");
+        System.out.println("1. A");
+        System.out.println("2. B");
+        System.out.println("3. C");
+        System.out.println("4. D");
+        System.out.println("5. E");
+        
+        System.out.println("Masukkan Pilihan");
+        int metode = inp.nextInt();
+        
+        switch(metode) {
+            case 1:
+                System.out.println("Nilai huruf A adalah = 4"); break;
+            case 2:
+                System.out.println("Nilai huruf B adalah = 3"); break;
+            case 3:
+                System.out.println("Nilai huruf C adalah = 2"); break;
+            case 4:
+                System.out.println("Nilai huruf D adalah = 1"); break;
+            case 5:
+                System.out.println("Nilai huruf E adalah = 0"); break;
+                
+        }
+    }
+    
+}
